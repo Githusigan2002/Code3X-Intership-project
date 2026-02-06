@@ -1,9 +1,10 @@
+import Login from "./pages/login";
 
 function App() {
 
   return (
     <>
-      <h1>Code3X</h1>
+      <Login />
     </>
   )
 }
