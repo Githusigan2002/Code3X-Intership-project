@@ -1,12 +1,16 @@
 import Login from "./pages/login";
+import { Routes, Route } from "react-router-dom";
 
 function App() {
-
   return (
     <>
-      <Login />
+      //routes for navigate pages
+      <Routes>
+        <Route path="/" element={<Home />} />
+        <Route path="/login" element={<Login />} />
+      </Routes>
     </>
-  )
+  );
 }
 
-export default App
+export default App;
