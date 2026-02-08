@@ -4,11 +4,17 @@ import LoginForm from "../Components/LoginForm.jsx";
 const Login = () => {
   return (
     <Container maxWidth="md" sx={{ mt: 12 }}>
-      <Stack direction="row" justifyContent="space-between" spacing={2}>
+      <Stack direction="row" spacing={12}>
         <LoginForm />
         <Box
           sx={{
-            display: { xs: "none", sm: "block" },
+            display: {
+              xs: "none",
+              sm: "block",
+              backgroundColor: "#f5faf0",
+              borderRadius: 12,
+              margin: 12,
+            },
           }}
         >
           <img src={loginIllustration} height={400}></img>
