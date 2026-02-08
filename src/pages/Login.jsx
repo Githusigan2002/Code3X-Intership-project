@@ -11,7 +11,7 @@ const Login = () => {
             display: { xs: "none", sm: "block" },
           }}
         >
-          <img src={loginIllustration} height={400} widt></img>
+          <img src={loginIllustration} height={400}></img>
         </Box>
       </Stack>
     </Container>
